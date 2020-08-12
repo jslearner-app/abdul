@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+.clear {
+  clear: both;
+}
+
+nav {
+  background-color: rgb(63, 61, 61);
+  color: white;
+  padding: 3rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 3.4rem;
+  color: rgb(228, 165, 50);
+}
+a {
+  color: white;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+  color: rgb(228, 165, 50);
+}
+
+nav h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+  font-size: 1.8rem;
+}
+.nav-bar {
+  background-image: url("/img/jason-briscoe-n4ymhyyFY7A-unsplash.jpg");
+  height: 80rem;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 8rem;
+  text-shadow: 3px 3px 3px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar h2 {
+  padding-top: 25rem;
+}
+
+.nav-bar h3 {
+  padding-top: 10rem;
+}
+
+.nav-bar button {
+  margin-top: 3.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  background: rgb(117, 117, 201);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-style: none;
+}
+
+.form-section {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 1.4rem;
+  width: 20%;
+}
+
+form input,
+form label,
+form textarea {
+  margin: 1rem auto;
+}
+form button {
+  margin: 3.5rem 0rem 10rem 0rem;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  background: rgb(117, 117, 201);
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 20%;
+}
+
+div h1 {
+  width: auto;
+  text-align: center;
+  color: white;
+  font-size: 3.8rem;
+  background: gray;
+}
+
+.products {
+  width: auto;
+  margin: 1.3rem;
+  padding: 1.3rem;
+}
